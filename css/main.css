@@ -1,0 +1,27 @@
+body {
+  display: flex;
+}
+.displayFlex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+input {
+  margin-top: 1vw;
+}
+
+
+/*Display movies*/
+.displayMovies {
+  border-style: solid;
+  border-width: thin;
+  /*margin-left: 2vw;*/
+  margin-bottom: 2vw;
+}

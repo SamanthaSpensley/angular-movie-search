@@ -1,0 +1,25 @@
+<div class="displayFlex">
+  <h1>Angular OMDb API Search</h1>
+  <h3>Enter a movie by title:</h3>
+
+  <form ng-submit="searchMovie()" name="search" class="form-group col-xs-12 col-sm-6" >
+    <input type="text" ng-model="view.searchInput" name="searchTitle" placeholder="Movie title e.g. Frozen"class="form-control" >
+    <input type="submit" class="btn btn-primary btn-block" value="Submit" />
+  </form>
+</div>
+
+<div class="row">
+  <div ng-repeat="movie in view.movies">
+    <a href="/view/{{ movie.imdbID }}">
+      <div class="col-xs-12 col-md-6 displayMovies">
+        <h4>{{ movie.Title }}</h4>
+        <h4>{{ movie.Year }}</h4>
+      </div>
+    </a>
+  </div>
+</div>
+
+
+<!-- <div ng-repeat="movie in view.movies">
+
+</div> -->
