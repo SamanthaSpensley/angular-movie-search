@@ -18,10 +18,27 @@ input {
 }
 
 
-/*Display movies*/
+/* ----- Display movies ----- */
 .displayMovies {
   border-style: solid;
   border-width: thin;
   /*margin-left: 2vw;*/
   margin-bottom: 2vw;
+}
+
+.movieDetails h5 {
+  margin-bottom: 0;
+}
+.movieDiv {
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  -webkit-box-shadow: 5px 3px 19px -4px rgba(0,0,0,0.56);
+  -moz-box-shadow: 5px 3px 19px -4px rgba(0,0,0,0.56);
+  box-shadow: 5px 3px 19px -4px rgba(0,0,0,0.56);
+}
+
+
+/* ----- image ----- */
+img {
+  width: 90%;
 }
